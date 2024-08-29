@@ -7,10 +7,10 @@ import time
 CounterFitConnection.init('127.0.0.1', 5000)
 
 # Cấu hình cảm biến DHT
-sensor = DHT("11", 5)
+sensor = DHT("11", 1)
 
 # URL của ThingsBoard với token thiết bị
-ACCESS_TOKEN = 'iHzLrvYxXlW14S5z16tu'
+ACCESS_TOKEN = 'vQiZzk4w5fX5PmJoWDuk'
 THINGSBOARD_URL = f'http://localhost:8080/api/v1/{ACCESS_TOKEN}/telemetry'
 
 while True:
